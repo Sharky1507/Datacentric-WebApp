@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 def run(df):
     #Enter your MapBox token here
-    px.set_mapbox_access_token("")
+    px.set_mapbox_access_token(MAPBOX_API_KEY)
     st.subheader("Plot 1")
     fig1 = px.scatter_mapbox(
         df,
