@@ -1,4 +1,4 @@
-python_version >= 3.7, < 3.11
+python_version >= 3.11
 absl-py==2.1.0
 ai-benchmark==0.1.2
 aiohttp==3.9.5
