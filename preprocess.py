@@ -10,7 +10,7 @@ def lat_lon_conversion(dataFile):
     #Do some more processing. This function takes a lat-long list and separates lat and Lon of each trip
     df=pd.read_csv(dataFile)
     n=20
-    df = df.head(n)
+    df = df.head(n) 
 
     #Convert string to list
     df['polyline'] = df['polyline'].apply(eval)
